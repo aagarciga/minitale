@@ -3,24 +3,47 @@
  * There are many other ways to style your app. For example, [Nativewind](https://www.nativewind.dev/), [Tamagui](https://tamagui.dev/), [unistyles](https://reactnativeunistyles.vercel.app), etc.
  */
 
-const tintColorLight = '#0a7ea4';
-const tintColorDark = '#fff';
+const Color = {
+  aerospaceOrange: "#FF4F00",
+  aerospaceOrange90: "#FF6219",
+  aerospaceOrange80: "#FF7433",
+  aerospaceOrange70: "#FF854D",
+  aerospaceOrange60: "#FF9666",
+  aerospaceOrange50: "#FFA880",
+  aerospaceOrange40: "#FFB999",
+  aerospaceOrange30: "#FFCBB3",
+  aerospaceOrange20: "#FFDCCC",
+  aerospaceOrange10: "#FFEEE6",
+  gunmetal: "#2C3539",
+  gunmetal90: "#3E494E",
+  gunmetal80: "#525E64",
+  gunmetal70: "",
+  gunmetal60: "",
+  gunmetal50: "",
+  gunmetal40: "",
+  gunmetal30: "",
+  gunmetal20: "",
+  gunmetal10: "",
+  whiteSmoke: "#F5F5F5",
+};
 
 export const Colors = {
   light: {
-    text: '#11181C',
-    background: '#fff',
-    tint: tintColorLight,
-    icon: '#687076',
-    tabIconDefault: '#687076',
-    tabIconSelected: tintColorLight,
+    primary: Color.aerospaceOrange,
+    background: Color.whiteSmoke,
+    card: Color.gunmetal10,
+    text: Color.gunmetal,
+    border: Color.gunmetal20,
+    notification: Color.aerospaceOrange,
+    link: Color.aerospaceOrange,
   },
   dark: {
-    text: '#ECEDEE',
-    background: '#151718',
-    tint: tintColorDark,
-    icon: '#9BA1A6',
-    tabIconDefault: '#9BA1A6',
-    tabIconSelected: tintColorDark,
+    primary: Color.aerospaceOrange,
+    background: Color.gunmetal,
+    card: Color.gunmetal90,
+    text: Color.whiteSmoke,
+    border: Color.gunmetal50,
+    notification: Color.aerospaceOrange,
+    link: Color.aerospaceOrange50,
   },
 };
