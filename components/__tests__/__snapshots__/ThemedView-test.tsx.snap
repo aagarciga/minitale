@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThemedView component renders correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#F5F5F5",
+      },
+      undefined,
+    ]
+  }
+>
+  Snapshot test!
+</View>
+`;
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#F5F5F5",
+      },
+      undefined,
+    ]
+  }
+>
+  Snapshot test!
+</View>
+`;
